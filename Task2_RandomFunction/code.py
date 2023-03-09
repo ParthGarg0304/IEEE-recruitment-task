@@ -14,11 +14,11 @@ while True:
     print("Lets Play")
     print()
 
-    user=input("Enter your guess: ")
+    user=input("Enter your guess: ")    #users guess
     print("You guessed", user)
     print()
 
-    pc=random.randrange(0,max)
+    pc=random.randrange(0,max)         #code's number
     print("I have my number")
     print()
 
@@ -40,8 +40,7 @@ while True:
         print()
         print("keep the morale high")
 
-    x=input("Do you want to continue (Y/N): ")
-    x=x.upper()
+    x=input("Do you want to continue (Y/N): ")       #option to continue
     print()
     if(x=="Y"):
         print()
