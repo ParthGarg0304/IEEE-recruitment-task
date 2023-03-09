@@ -6,6 +6,7 @@ score=0
 print("Your score is",score)
 
 while True:
+    print()
     max=int(input("what maximum guess number would you want : "))
     print("The range is 0 to",max)
     print()
@@ -40,8 +41,14 @@ while True:
         print("keep the morale high")
 
     x=input("Do you want to continue (Y/N): ")
+    x=x.upper()
+    print()
     if(x=="Y"):
+        print()
         print("Great, lets play again")
     else:
+        print()
         print("aww, no problemo")
-        False
+        break
+
+        
