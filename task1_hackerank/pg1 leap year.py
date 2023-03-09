@@ -1,14 +1,16 @@
 def is_leap(year):
     leap = False
     
-    if(year/4==0):
+    x=year/4
+    y=year/100
+
+    if(x%2==0):
         leap=True
-        if(year/100==0):
+        if(y%2==0):
             leap=False
-            if(year/400==0):
+            if(year%400==0):
                 leap=True
 
-    
     
     return leap
 
