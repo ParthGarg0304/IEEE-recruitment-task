@@ -1,3 +1,5 @@
+"""Use the random module from python to create a number-guessing game."""
+
 import random
 
 print("Welcome to GUESS ME")
