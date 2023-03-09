@@ -1,0 +1,11 @@
+Use the random module from python to create a number-guessing game.
+
+- In this task, you will be using the random module from Python to create a
+number-guessing game.
+
+- The goal of the game is to guess a random number within a specified range, and you
+will be creating the code that generates the random number and prompts the user to
+guess.
+
+- Remember to break down the problem into smaller steps and use the tools you have
+learned so far in your programming course to help you create the game. Good luck!
